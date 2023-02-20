@@ -1,0 +1,36 @@
+.menu {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #6278F7;
+}
+
+
+.menu ul {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+    flex-wrap: wrap;
+    list-style:none;
+}
+
+.menu li {
+    border-bottom: 4px solid #57C278;
+    display: inline-block;
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.menu-titulo {
+    font-size: 42px;
+    font-weight: bolder;
+}
+
+@media  (min-width: 400px) and (max-width: 900px) { 
+    .menu-titulo {
+        font-size: 25px;
+        font-weight: bolder;
+    }
+}
